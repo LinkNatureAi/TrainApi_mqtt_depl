@@ -1,7 +1,7 @@
 const mqtt = require('mqtt');
 const request = require('request');
 const { v4: uuidv4 } = require('uuid');
-# building LinkNatureAi develop
+
 // MQTT settings
 const BROKER = 'broker.hivemq.com';
 const TOPIC_NUM = 'train-num-render2';
