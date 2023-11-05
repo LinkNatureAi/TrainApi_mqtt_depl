@@ -11,7 +11,7 @@ client.on('connect', () => {
     } catch (error) {
       console.error('Error publishing message:', error);
     }
-  }, 1000);
+  }, 300);
 });
 
 client.on('error', (error) => {
